@@ -19,6 +19,11 @@ dependencies = [
     "pandas>=2.2.1",
     "pip>=25.0.1",
     "pytest>=8.3.5",
+    "rich>=14.0.0",
+    "scikit-learn>=1.6.1",
+    "ipympl>=0.9.7",
+    "gensim>=4.3.3",
+    "bertviz>=1.4.0",
 ]
 
 [tool.uv.sources]
