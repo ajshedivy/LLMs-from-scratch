@@ -17,11 +17,11 @@ uv pip install -r requirements.txt
 ```
 ✅ Ensure your `uv`-managed virtual environment is activated before running the scripts.
 
-## ሩጫ Running the Demo Scripts
+## Running the Demo Scripts
 
 The following Python scripts offer visualizations and training examples:
 
-### 1. `gpt_visual.py` 🖼️
+### 1. `gpt_visual.py` 
 
 This script likely provides a visualization of the GPT model's architecture or its components.
 
@@ -34,7 +34,7 @@ Or, if you have `uv run` configured for your project (e.g., via `pyproject.toml`
 uv run python demo/gpt_visual.py
 ```
 
-### 2. `gpt_visual_train.py` 🏋️‍♀️
+### 2. `gpt_visual_train.py`
 
 This script is probably used to train a version of the GPT model, possibly with visual outputs or for a smaller dataset suitable for demonstration.
 
@@ -48,7 +48,7 @@ uv run python demo/gpt_visual_train.py
 ```
 📝 You may need to check the script for specific command-line arguments or data requirements.
 
-### 3. `gpt_visual_attention.py` 👀
+### 3. `gpt_visual_attention.py`
 
 This script likely visualizes the attention mechanism within the GPT model, showing how different parts of the input sequence attend to each other.
 
