@@ -89,6 +89,13 @@ The mental model below summarizes the contents covered in this book.
 <br>
 &nbsp;
 
+## Demo
+
+The [demo](demo) folder contains a notebook `build-llm-from-scratch.ipynb` that provides an educational walkthrough of the concepts covered in this book. It is an adaptation of the notebooks in this repository and is intended for learning purposes.
+
+<br>
+&nbsp;
+
 ## Hardware Requirements
 
 The code in the main chapters of this book is designed to run on conventional laptops within a reasonable timeframe and does not require specialized hardware. This approach ensures that a wide audience can engage with the material. Additionally, the code automatically utilizes GPUs if they are available. (Please see the [setup](https://github.com/rasbt/LLMs-from-scratch/blob/main/setup/README.md) doc for additional recommendations.)
