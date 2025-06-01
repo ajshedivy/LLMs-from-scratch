@@ -89,9 +89,28 @@ The mental model below summarizes the contents covered in this book.
 <br>
 &nbsp;
 
-## Demo
+## Demo 🚀
 
-The [demo](demo) folder contains a notebook `build-llm-from-scratch.ipynb` that provides an educational walkthrough of the concepts covered in this book. It is an adaptation of the notebooks in this repository and is intended for learning purposes.
+The [demo](demo) folder contains comprehensive educational materials for learning LLM development:
+
+### 📚 **Complete Tutorial Notebook**
+- **[`build-llm-from-scratch.ipynb`](demo/build-llm-from-scratch.ipynb)**: A presentation-ready notebook providing a complete walkthrough from basic tokenization to production-ready text generation. Created by [Adam Shedivy](https://github.com/ajshedivy), this adaptation combines concepts from multiple chapters into a unified learning experience.
+
+### 🔬 **Interactive Demo Scripts**
+- **[`gpt_visual.py`](demo/gpt_visual.py)**: GPT model architecture visualization and exploration
+- **[`gpt_visual_train.py`](demo/gpt_visual_train.py)**: Training demonstration with visual progress monitoring  
+- **[`gpt_visual_attention.py`](demo/gpt_visual_attention.py)**: Interactive attention mechanism visualization
+
+### 🎯 **What You'll Learn**
+The demo materials cover the complete LLM development pipeline:
+1. **Text Processing & Tokenization** - From raw text to model-ready tokens
+2. **Attention Mechanisms** - Understanding contextual relationships with interactive visualizations
+3. **GPT Architecture** - Complete Transformer implementation from scratch
+4. **Model Training** - End-to-end training with loss monitoring and validation
+5. **Advanced Generation** - Temperature scaling and top-k sampling for quality control
+6. **Pretrained Integration** - Loading and using OpenAI GPT-2 weights for production applications
+
+Perfect for presentations, workshops, or self-study with clear explanations, interactive examples, and practical implementations. See the [demo README](demo/README.md) for setup instructions and detailed learning objectives.
 
 <br>
 &nbsp;
