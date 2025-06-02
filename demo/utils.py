@@ -849,9 +849,9 @@ def interactive_tower_attention():
             "embedding_shift": "Updated with French landmark info"
         },
         {
-            "sentence": "Look at that tall miniature tower",
-            "words": ["Look", "at", "that", "tall", "miniature", "tower"], 
-            "tower_attention": [0.05, 0.05, 0.1, 0.2, 0.5, 0.1],  # High attention to 'miniature'
+            "sentence": "Look at that miniature Eiffel tower",
+            "words": ["Look", "at", "that", "miniature", "Eiffel", "tower"], 
+            "tower_attention": [0.05, 0.05, 0.1, 0.5, 0.2, 0.1],  # High attention to 'miniature'
             "meaning": "Small scale model",
             "embedding_shift": "Updated with size/scale info"
         }
