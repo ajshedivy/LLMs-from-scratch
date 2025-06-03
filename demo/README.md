@@ -82,29 +82,21 @@ pip install -r requirements.txt
 For advanced dependency management:
 ```bash
 # Create and activate virtual environment
-python -m venv .venv
+uv venv --python=python3.10
 source .venv/bin/activate  # Windows: .venv\Scripts\activate
 
-# Install with UV
+# Install requirements using uv
 uv pip install -r requirements.txt
-```
 
-### **Cloud Options**
-- **Google Colab**: Run directly in browser with GPU support
-- **Lightning AI Studio**: Persistent cloud environment with VSCode/Jupyter
-- **Local with GPU**: Automatic NVIDIA GPU acceleration if available
+# (Optional) run environment check
+python setup/02_installing-python-libraries/python_environment_check.py
+```
 
 See [setup/README.md](../setup/README.md) for detailed instructions on:
 - Python environment setup preferences
 - Docker DevContainer alternatives  
 - Cloud platform configuration
 - VSCode extensions and recommendations
-
-### **Verify Installation**
-```bash
-# Test basic imports
-python -c "import torch, tiktoken, matplotlib; print('✅ All dependencies ready!')"
-```
 
 ---
 
@@ -113,8 +105,11 @@ python -c "import torch, tiktoken, matplotlib; print('✅ All dependencies ready
 ### **Option 1: Complete Tutorial (Recommended)**
 Launch the comprehensive notebook for a guided learning experience:
 ```bash
-jupyter lab build-llm-from-scratch.ipynb
+cd demo
+jupyter lab
 ```
+
+![alt text](images/image.png)
 
 ### **Option 2: Interactive Demos**
 Explore specific components with visualization scripts:
